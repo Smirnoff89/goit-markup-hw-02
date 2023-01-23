@@ -1,8 +1,10 @@
 :root {
-
+    --primary-text-color: ;
+    --primary-white-color: #fff;
 }
 body {
     font-family: 'roboto' sans-serif;
+    background-color: var(--primaty-white-color);
 }
 
 .link {
@@ -11,17 +13,6 @@ body {
 
 .list {
     list-style: none;
-}
-
-h1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
 }
 
 /*--------HEADER--------*/
@@ -60,13 +51,24 @@ h1 {
     color: #404BBF;
 }
 
-/*--------SOLUTIONS--------*/
+/*--------MAIN-HERO--------*/
 
-.solutions {
+.hero {
     background: #2E2F42;
 }
 
-.solutions-btn {
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -81,7 +83,56 @@ h1 {
     border-radius: 4px;
 }
 
-.solutions-btn:hover,
-.solutions-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background: #404BBF;
+}
+
+/*--------MAIN-BENEFITS--------*/
+
+.benefits-hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.benefits-after-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*--------MAIN-OUR-WORK--------*/
+
+.our-work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
