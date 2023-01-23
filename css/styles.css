@@ -81,6 +81,7 @@ body {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -177,6 +178,7 @@ body {
         background: #F4F4FD;    
         border: 1px solid #E7E9FC;
         border-radius: 4px;
+        cursor: pointer;
 }
 
 .portfolio-menu-btn:hover,
