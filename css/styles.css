@@ -1,6 +1,11 @@
 :root {
-    --primary-text-color: ;
-    --primary-white-color: #fff;
+    --primary-text-color: #434455;
+    --primary-white-color: #ffffff;
+    --primary-title-color: #2E2F42;
+    --background-color-1: #404BBF;
+    --background-color-2: #4D5AE5;
+    --light-gray-color: #F4F4FD;
+    --other-white-color: #E7E9FC;
 }
 body {
     font-family: 'roboto', sans-serif;
@@ -15,6 +20,16 @@ body {
     list-style: none;
 }
 
+.btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 /*--------HEADER--------*/
 
 .logo {
@@ -26,12 +41,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42
+    color: var(--primary-title-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+    color: var(--background-color-1);
 }
 
 .address-link {
@@ -39,18 +54,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: #404BBF;
+    color: var(--background-color-1);
 }
 
 /*--------MAIN-HERO--------*/
 
 .hero {
-    background: #2E2F42;
+    background: var(--primary-title-color);
 }
 
 .hero-title {
@@ -58,27 +73,20 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .hero-btn {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;   
     display: flex;
     align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--primary-white-color);
+    background: var(--background-color-2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: #404BBF;
+    background: var(--background-color-1);
 }
 
 /*--------MAIN-BENEFITS--------*/
@@ -101,14 +109,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 
 .benefits-after-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 /*--------MAIN-OUR-WORK--------*/
@@ -119,13 +127,13 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 
 /*--------MAIN-OUR-TEAM--------*/
 
 .our-team {
-    background: #F4F4FD;
+    background: var(--light-gray-color);
 }
 
 .our-team-title {
@@ -133,7 +141,7 @@ body {
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 
 .our-team-name {
@@ -142,7 +150,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 
 .our-team-after-title {
@@ -150,48 +158,54 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 /*--------PORTFOLIO-MENU--------*/
 
 .portfolio-menu-btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;    
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    cursor: pointer;
+    color: var(--background-color-2);
+    background: var(--light-gray-color);    
+    border: 1px solid var(--other-white-color);
 }
 
 .portfolio-menu-btn:hover,
 .portfolio-menu-btn:focus {
-    color: #FFFFFF;
-    background: #404BBF;
+    color: var(--primary-white-color);
+    background: var(--background-color-1);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+
+/*--------PORTFOLIO-GALLERY--------*/
+
+.gallery-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-title-color);
+}
+
+.gallery-after-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 /*--------FOOTER--------*/
 
 .footer {
-    background: #2E2F42;
+    background: var(--primary-title-color);
 }
 
 .footer-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--other-white-color);
 }
