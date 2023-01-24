@@ -12,6 +12,10 @@ body {
     background-color: var(--primaty-white-color);
 }
 
+.accent {
+    color: var(--background-color-2);
+}
+
 .link {
     text-decoration: none;
 }
@@ -32,8 +36,15 @@ body {
 
 /*--------HEADER--------*/
 
-.logo {
-
+.header-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
 }
 
 .nav-link {
@@ -201,6 +212,17 @@ body {
 
 .footer {
     background: var(--primary-title-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-gray-color);
 }
 
 .footer-text {
