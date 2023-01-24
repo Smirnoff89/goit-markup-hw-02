@@ -3,7 +3,7 @@
     --primary-white-color: #fff;
 }
 body {
-    font-family: 'roboto' sans-serif;
+    font-family: 'roboto', sans-serif;
     background-color: var(--primaty-white-color);
 }
 
@@ -22,8 +22,6 @@ body {
 }
 
 .nav-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -37,9 +35,7 @@ body {
 }
 
 .address-link {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -58,9 +54,6 @@ body {
 }
 
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -70,7 +63,6 @@ body {
 
 .hero-btn {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;   
@@ -105,8 +97,6 @@ body {
 }
 
 .benefits-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -115,9 +105,6 @@ body {
 }
 
 .benefits-after-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -127,9 +114,6 @@ body {
 /*--------MAIN-OUR-WORK--------*/
 
 .our-work-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -140,9 +124,19 @@ body {
 
 /*--------MAIN-OUR-TEAM--------*/
 
+.our-team {
+    background: #F4F4FD;
+}
+
 .our-team-title {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.our-team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -152,9 +146,6 @@ body {
 }
 
 .our-team-after-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -166,19 +157,19 @@ body {
 
 .portfolio-menu-btn {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background: #F4F4FD;    
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;    
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .portfolio-menu-btn:hover,
@@ -190,6 +181,10 @@ body {
 }
 
 /*--------FOOTER--------*/
+
+.footer {
+    background: #2E2F42;
+}
 
 .footer-text {
     font-family: 'Roboto';
